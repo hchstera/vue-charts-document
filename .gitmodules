@@ -1,0 +1,3 @@
+[submodule "vue-charts"]
+	path = vue-charts
+	url = https://github.com/hchstera/vue-charts.git
