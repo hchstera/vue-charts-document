@@ -13,3 +13,6 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.js('vue-charts/src/vue-charts.js', 'vue-charts/dist/js/vue-charts.js')
+   .copy('vue-charts/dist/vue-charts.js', 'public/js/vue-charts.js');
